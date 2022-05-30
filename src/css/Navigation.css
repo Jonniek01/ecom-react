@@ -76,6 +76,7 @@
     background-color: white;
     width: 60vw;
     height: 100vh;
+    text-align: left;
 
     position: absolute;
     left: 0;
@@ -121,6 +122,120 @@
     display: flex;
     flex-direction: row;
 }
+.left{
+    width: 50%;
+
+    
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 6% 5% 2% 5%;
+    gap: 5%;
+    text-align: left;
+}
+.left ul{
+    display: flex;
+}
+.product{
+    margin-left: 20%;
+    width: 60%;
+    height: 70%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.thumbnails{
+    width: 60%;
+    display: flex;
+    gap: 8%;
+    margin-left: 20%;
+    justify-content: center;
+    list-style: none;
+    margin-top: 2%;
+
+}
+.thumbnails img {
+    border-radius: 10px;
+
+    height: 60px;
+}
+.thumbnails img:hover{
+    border: 1px solid hsl(26, 100%, 55%);
+    opacity: 0.5;
+
+}
+.arrows{
+    display: none;
+    margin-left: 2%;
+}
+.arrows img{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2%;
+   height: 30px;
+   border-radius: 50%;
+}
+.intro{
+    color: hsl(26, 100%, 55%);
+}
+.cartdiv{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.cartdiv .pone{
+    width: 40%;
+    display: flex;
+    gap: 20%;
+    background-color: azure;
+    margin-right: 10%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.cartdiv .ptwo{
+    color: white;
+    background-color: hsl(26, 100%, 55%);
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    gap: 10%;
+
+}
+.pl, .mn{
+   color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 150%;
+
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.p-price{
+    display: flex;
+    gap: 5%;
+
+}
+.price1{
+    font-weight: 700;
+
+
+}
+.disc{
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+}
+
+
+
+
 
 
 
